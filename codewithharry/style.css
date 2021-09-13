@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    overflow: auto;
+    font-family: 'Inter', sans-serif;
+    
+}
+body{
+    background-color: rgb(243, 159, 148);
+}
+.youtube-logo{
+    display: inline-block;
+    width: 13%;
+    margin-left: 9px;
+}
+#search{
+    display: inline-block;
+    height: 4vh;
+    width: 130px;
+    margin: 14px 0px 0 10px;
+    position: absolute;
+    padding: 0;
+    font-size: 20px;
+    background-color:lightgoldenrodyellow;
+    border: 2.5px solid rgb(23, 170, 228);
+}
+#go{
+    display: inline;
+    width: 50px;
+    height: 4vh;
+    /* padding: 5px 5px; */
+    position: absolute;
+    margin: 14px 0 0 145px;
+    background-color: lightslategrey;
+}
+#login{
+    display: inline-block;
+    margin-left: 80%;
+    background-color: mediumturquoise;
+    border: midnightblue 2px solid;
+
+}
+.header{
+    background-color: lightblue;
+}
+#video{
+    border: 3px solid red;
+    float: left;
+    margin-right: 10px;
+}
+.section2{
+    font-weight:bolder;
+    /* position: absolute; */
+    margin: 10px;
+    background-color: moccasin;
+    border: rgb(206, 206, 117) 2.5px solid;
+    font-size: 25px;
+}
+.list-item{
+    /* position: absolute; */
+    margin: 15px;
+    background-color: pink;
+    width: 100px;
+    float: left;
+    padding: 10px;
+}
+.list{
+    display: inline;
+}
+#about{
+    padding: 20px  40px 20px 40px;
+    text-align: center;
+    border: pink dotted 2px;
+    margin-right: 10px;
+    background-color: plum;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
